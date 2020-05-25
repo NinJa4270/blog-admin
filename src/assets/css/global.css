@@ -1,0 +1,84 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-c {
+  justify-content: center;
+}
+
+.a-c {
+  align-items: center;
+}
+
+.f-c {
+  flex-direction: column;
+}
+
+.back-item1 {
+  background: #9aecdb;
+}
+
+.back-item2 {
+  background: #3b3b98;
+}
+
+.back-color1{
+  background: #0984e3;
+}
+.back-color2{
+  background:#74b9ff;
+}
+.back-color3{
+  background: #636e72;
+}
+
+.j-b {
+  justify-content: flex-end;
+}
+.j-s{
+  justify-content: space-between;
+}
+
+.page{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.el-breadcrumb{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.el-card{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.el-table{
+  margin-top: 20px;
+  font-size: 12px;
+}
+.el-table-column{
+  text-align: center;
+}
+
+.el-pagination{
+  margin-top: 20px;
+}
+
